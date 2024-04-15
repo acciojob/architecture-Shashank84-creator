@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.imageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imageContainer img {
+    max-width: 100%;
+}
+
+.textContainer {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.architectureTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.architectureTable td {
+    border: 1px solid #ddd;
+}
+
+.architectureTable .firstColumn, .architectureTable .lastColumn {
+    width: 200px;
+}
+
+.architectureTable .middleColumn {
+    width: 600px;
+}
